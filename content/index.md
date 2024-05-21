@@ -1,6 +1,5 @@
-# Welcome to my Flowershow site!
 
-```JS
+```js
 navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } }).then(stream => {
     video.srcObject = stream; 
     video.setAttribute('playsinline', true); 
@@ -13,7 +12,7 @@ navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } }).th
 
 
 ---
-```JS
+```js
 function tick() {
     if (video.readyState === video.HAVE_ENOUGH_DATA) {
         canvas.width = video.videoWidth;
